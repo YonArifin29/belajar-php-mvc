@@ -1,0 +1,25 @@
+{
+    "name": "yonarifin29/belajar-php-mvc",
+    "description": "Belajar php mvc dari melalui chanel programmer zaman now",
+    "type": "project",
+    "authors": [
+        {
+            "name": "YonArifin29",
+            "email": "yonarifin94@smk.belajar.id"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5.8"
+    },
+    "autoload": {
+        "psr-4": {"YonArifin29\\Belajar\\PHP\\MVC\\": "app/"}
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "YonArifin29\\Belajar\\PHP\\MVC\\" : "tests/"
+        }
+    }
+}
